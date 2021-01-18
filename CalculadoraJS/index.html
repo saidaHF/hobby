@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATOR</title>
+		<meta charset="UTF-8">
+		<meta name="Calculator" content="Calculator">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="author" content="Saida Humbert">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<script src="scripts.js"></script>
+    </head>
+    <body>
+        <table class="botones" border=1>
+            <tr>
+                <td colspan="4">
+                    <div class="right" id="resultado">0</div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <th>
+                    <input type="Button" value="C" onclick="borrar();">
+                </th>
+                <th>
+                    <input type="Button" value="&laquo;" onclick="atras();">
+                </th>
+                <th>
+                    <input type="Button" value="/" onclick="operar('/');">
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" value="7" onclick="escribirCaracter('7');">
+                </td>
+                <td>
+                    <input type="Button" value="8" onclick="escribirCaracter('8');">
+                </td>
+                <td>
+                    <input type="Button" value="9" onclick="escribirCaracter('9');">
+                </td>
+                <td>
+                    <input type="Button" value="x" onclick="operar('*');">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" value="4" onclick="escribirCaracter('4');">
+                </td>
+                <td>
+                    <input type="Button" value="5" onclick="escribirCaracter('5');">
+                </td>
+                <td>
+                    <input type="Button" value="6" onclick="escribirCaracter('6');">
+                </td>
+                <th>
+                    <input type="Button" value="-" onclick="operar('-');">
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" value="1" onclick="escribirCaracter('1');">
+                </td>
+                <td>
+                    <input type="Button" value="2" onclick="escribirCaracter('2');">
+                </td>
+                <td>
+                    <input type="Button" value="3" onclick="escribirCaracter('3');">
+                </td>
+                <th>
+                    <input type="Button" value="+" onclick="operar('+');">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="Button" value="&plusmn;" onclick="contrario();">
+                </th>
+                <td>
+                    <input type="Button" value="0" onclick="escribirCaracter('0');">
+                </td>
+                <td>
+                    <input type="Button" value="," onclick="escribirCaracter('.');">
+                </td>
+                <th>
+                    <input type="Button" value="=" onclick="calcularResultado();">
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>
