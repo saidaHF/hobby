@@ -1,3 +1,35 @@
+table, input {
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	font-family: 'Yusei Magic', sans-serif;
+	border: 0;
+}
+
+input {
+	padding: 20px;
+	background-color: gray;
+}
+
+tr {
+	width: 25%;
+	height: auto;
+	font-size: 40px;
+	font-family: 'Yusei Magic', sans-serif;
+}
+
+resultado {
+	padding: 20px;
+	font-size: 35px;
+}
+
+/* Para poner el resultado a un lado */
 .right {
 	text-align: right;
+	background-color: whitesmoke;
+}
+
+th, td {
+	background-color: gray;
+	border: 0;
 }
