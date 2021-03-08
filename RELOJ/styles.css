@@ -1,0 +1,18 @@
+#circulo{
+   height: 100px;
+   width: 200px;
+   background: black;
+   border-radius: 25px;
+   border: 5px solid gray;
+   margin: 50px;
+}
+
+.center {
+    font-family: "Consolas", monospace;
+    font-size: 25pt;
+    color: white;
+    text-shadow: 0 0 0.2em blueviolet, 0 0 0.2em blue;
+    padding: 30.5px 0; /* vertical, 100 - el tamaño del texto vertical y entre 2 para saber que va arriba y que abajo */
+    text-align: center; /* texto horizontal - automaticamente pone en el medio */
+}
+
